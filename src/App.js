@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import "./styles/bootstrap.min.css";
 import "./components/RatingStars.js";
-import MovieCard from "./components/MovieCard";
+import Movies from "./components/Movies";
+import Header from "./components/Header";
 
 class App extends Component {
-  state = {
-    rating: 4.5
-  };
-
   render() {
     return (
       <div className="App">
-        <MovieCard rating={this.state.rating} />
+        <div className="mb-4">
+          <Header />
+        </div>
+        <Movies />
       </div>
     );
   }

@@ -5,7 +5,7 @@
   border: 0.5px #dfdfdf solid;
 }
 
-.container {
+.r-stars > .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
