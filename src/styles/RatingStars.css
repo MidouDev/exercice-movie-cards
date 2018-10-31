@@ -1,0 +1,22 @@
+.r-stars {
+  width: 299px;
+  height: 55px;
+  background-color: #f7f7f7;
+  border: 0.5px #dfdfdf solid;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 40px;
+}
+
+.rating {
+  color: white;
+  background-color: #007bff;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 1px 8px;
+  border-radius: 34px;
+}
