@@ -3,3 +3,8 @@
   width: 300px;
   border: 0.5px #dfdfdf solid;
 }
+
+.card-body {
+  width: 296px;
+  height: 227px;
+}
