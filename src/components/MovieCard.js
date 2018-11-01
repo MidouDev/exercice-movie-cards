@@ -3,7 +3,7 @@ import RatingStars from "./RatingStars";
 import "../styles/MovieCard.css";
 
 const MovieCard = props => {
-  console.log(props.movie);
+  //console.log(props.movie);
   return (
     <div className="movieCard card">
       <img className="card-img-top" src={props.movie.imageUrl} alt="" />
